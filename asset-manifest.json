@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-pomo-todos/static/css/main.dca7eeea.chunk.css",
+    "main.js": "/react-pomo-todos/static/js/main.5eda62b3.chunk.js",
+    "main.js.map": "/react-pomo-todos/static/js/main.5eda62b3.chunk.js.map",
+    "runtime-main.js": "/react-pomo-todos/static/js/runtime-main.a2198064.js",
+    "runtime-main.js.map": "/react-pomo-todos/static/js/runtime-main.a2198064.js.map",
+    "static/js/2.dc52b2da.chunk.js": "/react-pomo-todos/static/js/2.dc52b2da.chunk.js",
+    "static/js/2.dc52b2da.chunk.js.map": "/react-pomo-todos/static/js/2.dc52b2da.chunk.js.map",
+    "index.html": "/react-pomo-todos/index.html",
+    "precache-manifest.462c5457da3dafe6405741123086a5a0.js": "/react-pomo-todos/precache-manifest.462c5457da3dafe6405741123086a5a0.js",
+    "service-worker.js": "/react-pomo-todos/service-worker.js",
+    "static/css/main.dca7eeea.chunk.css.map": "/react-pomo-todos/static/css/main.dca7eeea.chunk.css.map",
+    "static/js/2.dc52b2da.chunk.js.LICENSE.txt": "/react-pomo-todos/static/js/2.dc52b2da.chunk.js.LICENSE.txt",
+    "static/media/alarm.mp3": "/react-pomo-todos/static/media/alarm.f8b06e53.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a2198064.js",
+    "static/js/2.dc52b2da.chunk.js",
+    "static/css/main.dca7eeea.chunk.css",
+    "static/js/main.5eda62b3.chunk.js"
+  ]
+}
