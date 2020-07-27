@@ -1,26 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import Pomodoro from './Components/Pomodoro/Pomodoro.component';
+import TodoList from './Components/TodoList/TodoList.component';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+  render(){
+    return (
+      <div>
+        <h1 className="text-center">POMO-TODO</h1>
+        <Pomodoro/>
+        <TodoList/>
+      </div>
+    );
+  }
 }
-
-export default App;
