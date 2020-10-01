@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Pomodoro from './Components/Pomodoro/Pomodoro.component';
 import TodoList from './Components/TodoList/TodoList.component';
-import './App.css';
+import './styles/app.css';
 
 export default class App extends Component {
   render(){
