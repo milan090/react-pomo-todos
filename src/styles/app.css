@@ -1,0 +1,170 @@
+/* variables for the colors*/
+body {
+  width: 500px;
+  margin: 0 auto;
+  color: white;
+  background-color: #ff5151;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+#pomodoro {
+  background: #ff5151;
+  border: 9px solid #a80000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 4px 40px 5px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 40px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 26px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#counter {
+  font-size: 8em;
+}
+
+.controlBtns button {
+  margin: 0 10px;
+  outline: none;
+  background-color: #ff5151;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.activeModeBtn {
+  background-color: #a80000 !important;
+  color: white;
+  font-weight: bolder !important;
+}
+
+#startBtn {
+  width: 50%;
+  padding: 10px 20px;
+  border-radius: 20px;
+  outline: none;
+}
+
+.striken {
+  text-decoration: line-through;
+  color: grey;
+}
+
+/* I nested the child elements related to the .todo class*/
+.todo {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #e2e2e2;
+  color: black;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.todo img {
+  width: 20px;
+  height: 20px;
+}
+
+#todoList {
+  margin-top: 40px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* I nested the child elements related to the #addTodo ID*/
+#addTodo {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1fr;
+  margin-top: 50px;
+}
+
+#addTodo input {
+  border: 0;
+  border-bottom: 2px solid black;
+  font-size: 2em;
+  outline: none;
+  background-color: #ff5151;
+  color: white;
+}
+
+#addTodo button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+  color: #eeeeee;
+}
+
+:-ms-input-placeholder {
+  color: #eeeeee;
+}
+
+::-ms-input-placeholder {
+  color: #eeeeee;
+}
+
+::placeholder {
+  color: #eeeeee;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: #ff8585;
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=app.css.map */

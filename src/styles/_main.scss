@@ -1,0 +1,123 @@
+body {
+  width: 500px;
+  margin: 0 auto;
+  color: $text-color;
+  background-color: $primary-color;;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+#pomodoro {
+  background: $primary-color;
+  border: 9px solid $primary-color-dark;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 40px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 26px;
+  padding: 20px;
+  @include flex-column;
+  align-items: center;
+}
+
+#counter {
+  font-size: 8em;
+}
+
+.controlBtns button {
+  margin: 0 10px;
+  outline: none;
+  background-color: $primary-color;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  color: $text-color;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.activeModeBtn {
+  background-color: $primary-color-dark !important;
+  color: $text-color;
+  font-weight: bolder !important;
+}
+
+#startBtn {
+  width: 50%;
+  padding: 10px 20px;
+  border-radius: 20px;
+  outline: none;
+}
+
+.striken {
+  text-decoration: line-through;
+  color: grey;
+}
+
+/* I nested the child elements related to the .todo class*/
+.todo {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(226, 226, 226);
+  color: black;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  justify-content: space-between;
+
+  img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+
+
+#todoList {
+  margin-top: 40px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.center {
+  @include flex-column;
+}
+
+/* I nested the child elements related to the #addTodo ID*/
+
+#addTodo {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-top: 50px;
+
+  input {
+    border: 0;
+    border-bottom: 2px solid black;
+    font-size: 2em;
+    outline: none;
+    background-color: $primary-color;
+    color: $text-color;
+  }
+
+  button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+}
+
+
+::placeholder {
+  color: rgb(238, 238, 238);
+}
+
